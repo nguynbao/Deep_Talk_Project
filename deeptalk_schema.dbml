@@ -1,0 +1,119 @@
+// DeepTalk DBML (generated)
+Project DeepTalk {
+  database_type: "MySQL"
+  note: "Game ends only when questions exhausted or user ends manually"
+}
+
+Table auth_user {
+  id CHAR(36) [pk]
+  email VARCHAR(255) [not null, unique]
+  password_hash VARCHAR(255) [not null]
+  display_name VARCHAR(100)
+  created_at DATETIME [default: `CURRENT_TIMESTAMP`]
+}
+
+Table topic {
+  id TINYINT [pk, note: 'UNSIGNED']
+  code VARCHAR(32) [not null, unique]
+  title VARCHAR(64) [not null]
+}
+
+Table question {
+  id CHAR(36) [pk]
+  topic_id TINYINT [not null, note: 'UNSIGNED', ref: > topic.id]
+  content TEXT [not null]
+  created_by CHAR(36) [ref: - auth_user.id] // SET NULL
+  is_active TINYINT(1) [default: 1]
+  created_at DATETIME [default: `CURRENT_TIMESTAMP`]
+}
+
+Table grp {
+  id CHAR(36) [pk]
+  name VARCHAR(100) [not null]
+  owner_id CHAR(36) [not null, ref: > auth_user.id] // ON DELETE CASCADE
+  created_at DATETIME [default: `CURRENT_TIMESTAMP`]
+}
+
+Table grp_member {
+  id CHAR(36) [pk]
+  grp_id CHAR(36) [not null, ref: > grp.id] // ON DELETE CASCADE
+  member_name VARCHAR(100) [not null]
+  user_id CHAR(36) [ref: - auth_user.id] // SET NULL
+  created_at DATETIME [default: `CURRENT_TIMESTAMP`]
+}
+
+Table game_session {
+  id CHAR(36) [pk]
+  grp_id CHAR(36) [not null, ref: > grp.id] // ON DELETE CASCADE
+  topic_id TINYINT [not null, note: 'UNSIGNED', ref: > topic.id]
+  created_by CHAR(36) [ref: - auth_user.id] // SET NULL
+  status ENUM('active','ended') [default: 'active']
+  end_reason ENUM('manual','exhausted')
+  created_at DATETIME [default: `CURRENT_TIMESTAMP`]
+  ended_at DATETIME
+  avoid_repeat TINYINT(1) [not null, default: 1]
+}
+
+Table game_session_player {
+  id CHAR(36) [pk]
+  session_id CHAR(36) [not null, ref: > game_session.id] // ON DELETE CASCADE
+  grp_member_id CHAR(36) [not null, ref: > grp_member.id]
+  display_name VARCHAR(100) [not null]
+  turns_taken INT UNSIGNED [not null, default: 0]
+  last_picked_at DATETIME
+}
+
+Table game_round {
+  id CHAR(36) [pk]
+  session_id CHAR(36) [not null, ref: > game_session.id] // ON DELETE CASCADE
+  round_no INT UNSIGNED [not null]
+  assigned_player_id CHAR(36) [not null, ref: > game_session_player.id]
+  status ENUM('pending','completed') [default: 'pending']
+  final_question_id CHAR(36) [ref: - question.id] // SET NULL
+  reroll_count INT UNSIGNED [not null, default: 0]
+  created_at DATETIME [default: `CURRENT_TIMESTAMP`]
+  completed_at DATETIME
+
+  Indexes {
+    (session_id, round_no) [unique, name: 'uq_round_in_session']
+    (session_id, status) [name: 'idx_gr_session_status']
+  }
+}
+
+Table game_round_pick {
+  id CHAR(36) [pk]
+  round_id CHAR(36) [not null, ref: > game_round.id] // ON DELETE CASCADE
+  question_id CHAR(36) [not null, ref: > question.id]
+  is_final TINYINT(1) [not null, default: 0]
+  picked_at DATETIME [default: `CURRENT_TIMESTAMP`]
+
+  Indexes {
+    (round_id) [name: 'idx_grp_round']
+  }
+}
+
+Table question_used {
+  session_id CHAR(36) [not null, ref: > game_session.id] // ON DELETE CASCADE
+  question_id CHAR(36) [not null, ref: > question.id] // ON DELETE CASCADE
+  used_at DATETIME [default: `CURRENT_TIMESTAMP`]
+
+  PrimaryKey { session_id, question_id }
+}
+
+Ref: auth_user.id < owner_id.grp
+Ref: auth_user.id < created_by.question
+Ref: auth_user.id < created_by.game_session
+Ref: auth_user.id < user_id.grp_member
+Ref: topic.id < topic_id.question
+Ref: topic.id < topic_id.game_session
+Ref: grp.id < grp_id.grp_member
+Ref: grp.id < grp_id.game_session
+Ref: game_session.id < session_id.game_session_player
+Ref: grp_member.id < grp_member_id.game_session_player
+Ref: game_session.id < session_id.game_round
+Ref: game_session_player.id < assigned_player_id.game_round
+Ref: question.id < final_question_id.game_round
+Ref: game_round.id < round_id.game_round_pick
+Ref: question.id < question_id.game_round_pick
+Ref: game_session.id < session_id.question_used
+Ref: question.id < question_id.question_used
