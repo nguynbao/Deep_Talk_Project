@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_BASE_URL = process.env.SERVER;
+// CRA exposes env vars prefixed with REACT_APP_; fallback to localhost in dev
+const API_BASE_URL =
+  process.env.REACT_APP_SERVER || process.env.SERVER || "http://localhost:8000";
 const USERS_API = `${API_BASE_URL}/users`;
 const GROUP_API = `${API_BASE_URL}/groups`;
 const QUESTIONS_API = `${API_BASE_URL}/questions`;
