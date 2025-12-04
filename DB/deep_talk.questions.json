@@ -1,0 +1,2034 @@
+[{
+  "_id": {
+    "$oid": "675000000000000000000301"
+  },
+  "content": "Kỷ niệm gia đình nào làm bạn nhớ nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "675000000000000000000302"
+  },
+  "content": "Nếu được dành một ngày trọn vẹn cho gia đình, bạn sẽ làm gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "675000000000000000000303"
+  },
+  "content": "Điều bạn trân trọng nhất ở người bạn thân là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "675000000000000000000304"
+  },
+  "content": "Lần cuối cùng bạn cảm thấy được một người bạn thấu hiểu là khi nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "675000000000000000000305"
+  },
+  "content": "Bạn định nghĩa thế nào là một mối quan hệ lành mạnh?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "675000000000000000000306"
+  },
+  "content": "Điều gì khiến bạn cảm thấy được yêu thương nhất?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f20"
+  },
+  "content": "Kỷ niệm gia đình nào làm bạn nhớ nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f21"
+  },
+  "content": "Người trong gia đình nào ảnh hưởng đến bạn nhiều nhất? Vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f22"
+  },
+  "content": "Điều bạn biết ơn nhất về gia đình mình là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f23"
+  },
+  "content": "Nếu được thay đổi một điều trong quá khứ gia đình, bạn sẽ thay đổi gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f24"
+  },
+  "content": "Khoảnh khắc nào bạn cảm thấy được gia đình yêu thương nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f25"
+  },
+  "content": "Truyền thống gia đình nào bạn muốn giữ mãi về sau?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f26"
+  },
+  "content": "Bạn giống bố hoặc mẹ nhất ở điểm nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f27"
+  },
+  "content": "Lần gần nhất bạn cãi nhau với người thân là khi nào? Hai bên học được gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f28"
+  },
+  "content": "Nếu sau này có gia đình riêng, bạn muốn nó giống hay khác gia đình hiện tại ở điểm nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f29"
+  },
+  "content": "Món ăn gia đình nào gợi cho bạn nhiều cảm xúc nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f2a"
+  },
+  "content": "Khi còn nhỏ, bạn từng hiểu lầm điều gì về gia đình mình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f2b"
+  },
+  "content": "Giá trị quan trọng nhất mà gia đình dạy bạn là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f2c"
+  },
+  "content": "Ai trong nhà là người bạn khó mở lòng nhất? Vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f2d"
+  },
+  "content": "Khoảnh khắc nào bạn cảm thấy mình đã trưởng thành trong mắt gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f2e"
+  },
+  "content": "Nếu mô tả gia đình bằng ba từ, bạn sẽ chọn những từ nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f2f"
+  },
+  "content": "Bạn muốn nói lời xin lỗi với ai trong gia đình mà chưa dám nói?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f30"
+  },
+  "content": "Bạn muốn nói lời cảm ơn với ai trong gia đình mà chưa từng nói?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f31"
+  },
+  "content": "Lần cuối cùng cả gia đình quây quần bên nhau là khi nào? Bạn nhớ gì nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f32"
+  },
+  "content": "Điều khiến bạn lo lắng nhất về gia đình trong tương lai là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f33"
+  },
+  "content": "Nếu được dành trọn một ngày cho gia đình, bạn sẽ làm gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f34"
+  },
+  "content": "Người bạn thân nhất của bạn là ai và hai người quen nhau như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f35"
+  },
+  "content": "Kỷ niệm hài hước nhất bạn từng có với bạn bè là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f36"
+  },
+  "content": "Bạn định nghĩa thế nào là một tình bạn thật sự?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f37"
+  },
+  "content": "Có mối quan hệ bạn bè nào đã thay đổi cuộc đời bạn không? Kể về nó.",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f38"
+  },
+  "content": "Điều khó nói nhất với bạn bè của bạn là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f39"
+  },
+  "content": "Bạn từng mất đi một người bạn thân chưa? Chuyện gì đã xảy ra?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f3a"
+  },
+  "content": "Bạn có cảm thấy mình là người bạn tốt không? Vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f3b"
+  },
+  "content": "Trong tình bạn, điều gì khiến bạn tổn thương nhất?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f3c"
+  },
+  "content": "Bạn thích làm gì nhất khi ở cạnh bạn bè?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f3d"
+  },
+  "content": "Lần nào bạn cảm thấy được bạn bè bảo vệ hoặc đứng về phía mình?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f3e"
+  },
+  "content": "Bạn có kiểu bạn nào chỉ dám tâm sự online nhưng ngoài đời lại ngại gặp không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f3f"
+  },
+  "content": "Bài học lớn nhất bạn rút ra từ một cuộc cãi vã với bạn bè là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f40"
+  },
+  "content": "Điều gì khiến bạn cảm thấy an toàn khi ở bên một người bạn?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f41"
+  },
+  "content": "Bạn có tin vào tình bạn khác giới không? Vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f42"
+  },
+  "content": "Nếu có thể gửi một lời nhắn ẩn danh cho một người bạn, bạn sẽ nói gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f43"
+  },
+  "content": "Có điều gì bạn muốn làm cùng bạn bè nhưng vẫn chưa có cơ hội không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f44"
+  },
+  "content": "Một người bạn lý tưởng trong mắt bạn sẽ có những đặc điểm gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f45"
+  },
+  "content": "Bạn đã bao giờ ghen tị với bạn bè của mình chưa? Cảm giác đó như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f46"
+  },
+  "content": "Khi bạn gặp khó khăn, bạn thường tìm đến ai trong nhóm bạn bè?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f47"
+  },
+  "content": "Bạn nghĩ điều gì giúp một tình bạn có thể kéo dài rất lâu?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f48"
+  },
+  "content": "Bạn định nghĩa thế nào là tình yêu?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f49"
+  },
+  "content": "Kỷ niệm tình cảm nào khiến bạn nhớ mãi không quên?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f4a"
+  },
+  "content": "Điều gì khiến bạn cảm thấy được yêu thương nhất trong một mối quan hệ?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f4b"
+  },
+  "content": "Bạn sợ điều gì nhất trong tình yêu?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f4c"
+  },
+  "content": "Một mối quan hệ lành mạnh trong mắt bạn trông như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f4d"
+  },
+  "content": "Bạn thích được thể hiện tình cảm theo cách nào nhất?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f4e"
+  },
+  "content": "Bạn đã từng phải buông tay một người mình còn yêu chưa? Vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f4f"
+  },
+  "content": "Bài học lớn nhất bạn học được từ một mối tình cũ là gì?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f50"
+  },
+  "content": "Trong tình yêu, bạn coi trọng cảm xúc hay lý trí hơn?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f51"
+  },
+  "content": "Bạn có tin vào “đúng người, sai thời điểm” không? Vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f52"
+  },
+  "content": "Khi yêu, bạn thường là người chủ động hay thụ động?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f53"
+  },
+  "content": "Bạn cảm thấy khó chia sẻ điều gì nhất với người mình yêu?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f54"
+  },
+  "content": "Bạn nghĩ sự ghen tuông là bình thường hay độc hại trong tình yêu?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f55"
+  },
+  "content": "Nếu được mô tả hình mẫu người yêu lý tưởng bằng ba từ, đó sẽ là gì?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f56"
+  },
+  "content": "Bạn có tin rằng một người có thể thay đổi vì tình yêu không?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f57"
+  },
+  "content": "Điều nào khiến bạn muốn gắn bó lâu dài với một người?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f58"
+  },
+  "content": "Bạn cảm thấy điều gì là “red flag” lớn nhất trong tình yêu?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f59"
+  },
+  "content": "Tình yêu trong hiện tại khác gì so với những gì bạn tưởng tượng trước đây?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f5a"
+  },
+  "content": "Bạn muốn cùng người mình yêu trải nghiệm điều gì nhất trong tương lai?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929de26fbe96ef770231f5b"
+  },
+  "content": "Nếu được gửi một thông điệp cho “người yêu tương lai”, bạn sẽ nói gì?",
+  "topic": {
+    "$oid": "675000000000000000000003"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f60"
+  },
+  "content": "Điều gì bạn cảm thấy biết ơn nhất về gia đình mình mà chưa từng nói ra?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f61"
+  },
+  "content": "Bạn mong gia đình hiểu điều gì về bạn nhất ở thời điểm hiện tại?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f62"
+  },
+  "content": "Nếu được nói một câu với ba hoặc mẹ lúc này, bạn sẽ nói gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f63"
+  },
+  "content": "Khoảnh khắc gia đình nào khiến bạn rơi nước mắt khi nhớ lại?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f64"
+  },
+  "content": "Có điều gì bạn từng hiểu lầm gia đình nhưng bây giờ mới nhận ra không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f65"
+  },
+  "content": "Khi bạn buồn, ai trong gia đình là người bạn muốn gặp nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f66"
+  },
+  "content": "Bạn nghĩ gia đình đang nhìn nhận bạn như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f67"
+  },
+  "content": "Nếu được quay lại quá khứ gia đình, bạn muốn sửa chữa điều gì nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f68"
+  },
+  "content": "Lời xin lỗi nào bạn muốn nói với người thân nhưng vẫn còn ngại?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f69"
+  },
+  "content": "Lời cảm ơn nào bạn đã giữ trong lòng quá lâu mà chưa nói ra?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f6a"
+  },
+  "content": "Ký ức tuổi thơ nào làm bạn mỉm cười mỗi khi nhớ đến?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f6b"
+  },
+  "content": "Nhà bạn có truyền thống đặc biệt nào vào dịp lễ Tết không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f6c"
+  },
+  "content": "Món ăn gia đình nào khiến bạn cảm thấy \"đúng là nhà\" nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f6d"
+  },
+  "content": "Lần cuối bạn chụp ảnh cùng đầy đủ thành viên gia đình là khi nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f6e"
+  },
+  "content": "Ai trong gia đình là người hay kể chuyện vui hoặc tấu hài nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f6f"
+  },
+  "content": "Bạn từng bị ba hoặc mẹ phạt vì một lý do ngớ ngẩn nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f70"
+  },
+  "content": "Một điều nhỏ xíu nhưng gia đình làm khiến bạn cảm động là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f71"
+  },
+  "content": "Trong nhà, mùi hương nào làm bạn nhớ về tuổi thơ nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f72"
+  },
+  "content": "Phòng của bạn hồi nhỏ trông như thế nào, bây giờ nhớ lại thấy sao?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f73"
+  },
+  "content": "Bạn đã từng làm điều gì khiến gia đình tự hào nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f74"
+  },
+  "content": "Bạn có mối quan hệ nào trong gia đình khiến bạn đau lòng không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f75"
+  },
+  "content": "Điều gì về gia đình khiến bạn sợ phải đối diện nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f76"
+  },
+  "content": "Bạn từng thất vọng với gia đình vì chuyện gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f77"
+  },
+  "content": "Có nỗi buồn nào liên quan đến gia đình mà bạn chưa từng kể với ai không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f78"
+  },
+  "content": "Có điều gì bạn ước là mình chưa từng nói với người thân không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f79"
+  },
+  "content": "Bạn đang cố gắng chữa lành vết thương nào xuất phát từ gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f7a"
+  },
+  "content": "Ai là người bạn yêu nhưng lại khó gần gũi nhất trong gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f7b"
+  },
+  "content": "Khi lớn lên, bạn nhận ra góc tối nào của gia đình mình mà ngày xưa không thấy?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f7c"
+  },
+  "content": "Có khi nào bạn thấy cô đơn ngay trong chính ngôi nhà của mình không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f7d"
+  },
+  "content": "Nếu gia đình là một bài hát, \"đoạn buồn\" trong bài hát đó là khoảnh khắc nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f7e"
+  },
+  "content": "Gia đình bạn có từng nghiêm túc nói chuyện về yêu đương và giới tính với bạn chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f7f"
+  },
+  "content": "Bố mẹ bạn có bảo thủ trong chuyện yêu đương của bạn không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f80"
+  },
+  "content": "Bạn đã từng giấu gia đình chuyện đang hẹn hò với ai đó chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f81"
+  },
+  "content": "Bạn từng bị hỏi một câu \"khó nói\" về chuyện tình cảm hay 18+ từ người thân chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f82"
+  },
+  "content": "Bạn nghĩ gia đình sẽ phản ứng sao nếu bạn công khai mối quan hệ nghiêm túc của mình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f83"
+  },
+  "content": "Nếu một ngày tỉnh dậy và không còn gia đình bên cạnh, điều đầu tiên bạn sẽ làm là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f84"
+  },
+  "content": "Khi tưởng tượng về gia đình tương lai của mình, hình ảnh đầu tiên xuất hiện trong đầu bạn là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f85"
+  },
+  "content": "Điều gì bạn học được từ gia đình mà chắc chắn bạn muốn truyền lại cho con cái sau này?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f86"
+  },
+  "content": "Đối với bạn, gia đình là một nơi chốn, một cảm giác, hay một người?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f87"
+  },
+  "content": "Khoảnh khắc nào khiến bạn nhận ra gia đình quan trọng hơn mình từng nghĩ?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f88"
+  },
+  "content": "Trong nhà bạn, ai là \"CEO cãi lý\" khiến ai cũng ngán?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f89"
+  },
+  "content": "Ai là người hay ăn vụng nhất trong nhà nếu nhìn vào tủ lạnh là biết?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f8a"
+  },
+  "content": "Bạn từng lỡ tay làm hỏng đồ gì trong nhà rồi đổ thừa cho ai khác chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f8b"
+  },
+  "content": "Ai là \"nhân vật chính\" trong mọi drama nhỏ của gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f8c"
+  },
+  "content": "Trong nhà bạn, ai là người \"chỉ cần thở thôi cũng bị la\"?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f8d"
+  },
+  "content": "Bạn nghĩ mình giống ai nhất trong gia đình, cả về ngoại hình lẫn tính cách?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f8e"
+  },
+  "content": "Nếu được đổi vai với ba hoặc mẹ trong 24 giờ, bạn sẽ làm gì đầu tiên?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f8f"
+  },
+  "content": "Gia đình dạy bạn điều gì khiến bạn khác biệt với nhiều người xung quanh?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f90"
+  },
+  "content": "Điều gì về gia đình làm bạn tự hào nhất khi kể với người khác?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f91"
+  },
+  "content": "Nếu được ước một điều cho gia đình hiện tại, bạn sẽ ước điều gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f92"
+  },
+  "content": "Mối quan hệ gia đình nào bạn muốn chữa lành nhất ngay lúc này?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f93"
+  },
+  "content": "Bạn có đang mang nỗi sợ nào liên quan đến gia đình mình không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f94"
+  },
+  "content": "Mỗi lần xa nhà lâu, bạn nhớ điều gì về gia đình nhiều nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f95"
+  },
+  "content": "Gia đình đã dạy bạn cách đối diện với nỗi đau như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f96"
+  },
+  "content": "Trải nghiệm nào trong gia đình khiến bạn trưởng thành rõ rệt nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f97"
+  },
+  "content": "Ai trong gia đình là người bạn đang cố học cách tha thứ?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f98"
+  },
+  "content": "Bạn có từng vô tình biết một bí mật nào đó của gia đình không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f99"
+  },
+  "content": "Có khi nào bạn muốn rời khỏi gia đình để tìm bình yên cho riêng mình chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f9a"
+  },
+  "content": "Bạn nghĩ điều gì đang là khoảng cách lớn nhất giữa bạn và gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f9b"
+  },
+  "content": "Bạn đã từng cảm thấy bị đánh giá trong chính gia đình mình chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f9c"
+  },
+  "content": "Điều gì trong gia đình khiến bạn cảm thấy an toàn nhất khi trở về nhà?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f9d"
+  },
+  "content": "Khoảnh khắc nào người thân làm bạn xúc động đến mức không nói nên lời?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f9e"
+  },
+  "content": "Bạn muốn gia đình tương lai của mình giống gia đình hiện tại ở điểm nào nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231f9f"
+  },
+  "content": "Bạn yêu điều gì nhất ở ba hoặc mẹ của mình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa0"
+  },
+  "content": "Có khoảnh khắc nào khiến bạn nhận ra \"gia đình là tất cả\" chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa1"
+  },
+  "content": "Bạn có cảm giác mình đang sống theo kỳ vọng của gia đình hay của riêng bạn?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa2"
+  },
+  "content": "Bạn có sợ mình sẽ trở thành bản sao của ai đó trong gia đình không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa3"
+  },
+  "content": "Bạn muốn khác gia đình ở điều gì nhất khi xây dựng cuộc sống riêng?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa4"
+  },
+  "content": "Bạn muốn giống gia đình ở điểm nào nhất trong cách đối xử với người khác?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa5"
+  },
+  "content": "Điều gì trong gia đình khiến bạn hiểu rõ bản thân mình hơn?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa6"
+  },
+  "content": "Lời nói dối lớn nhất bạn từng nói với gia đình là gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa7"
+  },
+  "content": "Bạn đã từng bỏ nhà đi hoặc có ý định bỏ đi chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa8"
+  },
+  "content": "Bạn từng làm điều gì khiến ba hoặc mẹ sốc nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fa9"
+  },
+  "content": "Ba hoặc mẹ từng làm điều gì khiến bạn sốc nhất khi biết sự thật?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231faa"
+  },
+  "content": "Bạn có từng giấu chuyện rớt môn hoặc điểm thấp với gia đình không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fab"
+  },
+  "content": "Người thân nào bạn sợ phải nói lời tạm biệt nhất trong cuộc đời?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fac"
+  },
+  "content": "Bạn nghĩ sau này mình sẽ là người chăm sóc ai trong gia đình nhiều nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fad"
+  },
+  "content": "Điều gì khiến bạn thương ba hoặc mẹ nhiều nhất khi nghĩ về họ?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fae"
+  },
+  "content": "Bạn đã bao giờ chủ động ôm cha mẹ mình chưa, và lần gần nhất là khi nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231faf"
+  },
+  "content": "Bạn có muốn dành nhiều thời gian hơn cho gia đình so với hiện tại không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb0"
+  },
+  "content": "Gia đình bạn có từng đặt ra luật \"cấm yêu trước một độ tuổi nào đó\" không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb1"
+  },
+  "content": "Bạn đã từng bị bắt gặp đang nhắn tin với crush bởi người thân chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb2"
+  },
+  "content": "Bạn nghĩ gia đình sẽ phản ứng thế nào nếu bạn yêu người lớn tuổi hơn khá nhiều?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb3"
+  },
+  "content": "Bạn cảm thấy gia đình mình hiện đại hay truyền thống trong chuyện giáo dục giới tính?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb4"
+  },
+  "content": "Bạn từng nghe ba mẹ nói câu nào liên quan đến 18+ khiến bạn vừa buồn cười vừa ám ảnh chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb5"
+  },
+  "content": "Nếu được chọn một chuyến đi chơi chỉ dành cho gia đình, bạn muốn đi đâu nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb6"
+  },
+  "content": "Bạn thích những bữa cơm tối gia đình vì điều gì nhất?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb7"
+  },
+  "content": "Nếu tối nay cả nhà cùng xem phim với nhau, bạn sẽ chọn thể loại phim gì?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb8"
+  },
+  "content": "Nếu bạn được tổ chức một ngày \"family day\", bạn sẽ sắp xếp những hoạt động nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fb9"
+  },
+  "content": "Bạn nghĩ gia đình mình hợp vibe \"chill nhẹ\", \"hỗn loạn vui nhộn\" hay \"trầm lắng ấm áp\"?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fba"
+  },
+  "content": "Điều gì bạn muốn chữa lành nhất giữa bạn và gia đình ngay lúc này?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fbb"
+  },
+  "content": "Có khi nào bạn cảm thấy mình chưa bao giờ thật sự được lắng nghe trong gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fbc"
+  },
+  "content": "Bạn cảm thấy gia đình yêu thương bạn theo cách bạn cần hay theo cách họ nghĩ là tốt?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fbd"
+  },
+  "content": "Bạn đã từng có cảm giác mình không thuộc về chính gia đình của mình chưa?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fbe"
+  },
+  "content": "Điều gì bạn muốn thay đổi nhất trong mô hình hoặc cách vận hành của gia đình mình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fbf"
+  },
+  "content": "Gia đình đã ảnh hưởng như thế nào đến cách bạn yêu và xây dựng các mối quan hệ?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fc0"
+  },
+  "content": "Những tổn thương từ gia đình có ảnh hưởng gì đến tính cách hiện tại của bạn không?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fc1"
+  },
+  "content": "Bạn có từng nhận ra mình đang vô thức lặp lại một điều gì đó từng khiến bạn tổn thương trong gia đình?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fc2"
+  },
+  "content": "Bạn muốn các thế hệ sau này nhớ đến gia đình bạn như một điều gì đó thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e4ebfbe96ef770231fc3"
+  },
+  "content": "Điều gì khiến bạn cảm thấy mình may mắn khi được thuộc về gia đình này?",
+  "topic": {
+    "$oid": "675000000000000000000001"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fc5"
+  },
+  "content": "Người bạn thân nhất của bạn là ai và điều gì khiến hai bạn gắn bó đến vậy?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fc6"
+  },
+  "content": "Kỷ niệm đầu tiên bạn nhớ về người bạn thân hiện tại là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fc7"
+  },
+  "content": "Khoảnh khắc nào khiến bạn nhận ra một người đã trở thành bạn thân thực sự của mình?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fc8"
+  },
+  "content": "Bạn đã bao giờ mất đi một tình bạn quan trọng chưa và vì sao chuyện đó xảy ra?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fc9"
+  },
+  "content": "Nếu được quay lại với một người bạn cũ và nói một điều, bạn sẽ nói gì với họ?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fca"
+  },
+  "content": "Tình bạn nào đã ảnh hưởng mạnh nhất đến con người bạn hiện tại?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fcb"
+  },
+  "content": "Một người bạn tốt trong mắt bạn cần có những điều gì nhất?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fcc"
+  },
+  "content": "Bạn nghĩ mình là kiểu người bạn như thế nào đối với người khác?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fcd"
+  },
+  "content": "Bạn có tin vào việc bạn bè có thể trở thành gia đình không, vì sao?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fce"
+  },
+  "content": "Có người bạn nào bạn cảm thấy mắc nợ một lời xin lỗi không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fcf"
+  },
+  "content": "Kỷ niệm hài hước nhất bạn từng có với bạn bè là chuyện gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd0"
+  },
+  "content": "Trong nhóm bạn của bạn, ai là cây hài chính và ai là nạn nhân chính?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd1"
+  },
+  "content": "Lần nào bạn cùng bạn bè cười đến mức không thở được gần đây nhất là khi nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd2"
+  },
+  "content": "Bạn từng làm trò ngớ ngẩn gì với bạn mà bây giờ nhớ lại vẫn thấy quê?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd3"
+  },
+  "content": "Bạn bè đã từng cứu bạn khỏi một pha bối rối nào đó như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd4"
+  },
+  "content": "Một lần bạn cảm thấy được bạn bè bảo vệ hoặc đứng về phía mình là khi nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd5"
+  },
+  "content": "Có tình huống nào mà nếu không có bạn bè, bạn đã không vượt qua nổi không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd6"
+  },
+  "content": "Bạn đã từng òa khóc trước mặt bạn bè chưa, cảm giác lúc đó thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd7"
+  },
+  "content": "Khoảnh khắc nào khiến bạn nhận ra một người bạn thực sự thấu hiểu mình?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd8"
+  },
+  "content": "Một lời nói từ bạn bè đã từng chạm đến bạn sâu sắc là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fd9"
+  },
+  "content": "Bạn có từng ghen tị với một người bạn của mình chưa và vì lý do gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fda"
+  },
+  "content": "Trong tình bạn, điều gì khiến bạn cảm thấy bị tổn thương nhất?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fdb"
+  },
+  "content": "Bạn có từng cảm thấy bị bỏ rơi trong chính nhóm bạn của mình không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fdc"
+  },
+  "content": "Có giới hạn nào bạn đặt ra trong tình bạn mà bạn không muốn ai vượt qua không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fdd"
+  },
+  "content": "Bạn sợ điều gì nhất sẽ xảy ra với một tình bạn thân thiết của mình?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fde"
+  },
+  "content": "Bạn có tin rằng bạn bè khác giới có thể thân mà không xen lẫn tình cảm không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fdf"
+  },
+  "content": "Bạn đã từng lỡ thích một người bạn thân chưa, mọi chuyện diễn ra thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe0"
+  },
+  "content": "Bạn có người bạn nào mà hai người từng suýt thành người yêu nhưng rồi dừng lại không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe1"
+  },
+  "content": "Bạn thấy khó nhất trong việc nói thật cảm xúc của mình với bạn bè là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe2"
+  },
+  "content": "Bạn có từng giữ một bí mật rất lớn cho một người bạn không, đó là chuyện gì liên quan đến cảm xúc hay tình yêu của họ?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe3"
+  },
+  "content": "Một lần bạn và bạn bè rủ nhau làm điều gì đó hơi điên rồ nhưng rất đáng nhớ là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe4"
+  },
+  "content": "Nếu tối nay bạn phải chọn một người bạn để tâm sự mọi chuyện, bạn sẽ chọn ai và vì sao là người đó?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe5"
+  },
+  "content": "Bạn thích làm điều gì nhất khi ở cạnh bạn bè mà không cần phải tỏ ra mạnh mẽ hay vui vẻ?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe6"
+  },
+  "content": "Có người bạn nào mà chỉ cần nghe giọng là bạn biết tâm trạng họ đang tệ không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe7"
+  },
+  "content": "Bạn tin rằng mình có thể gọi ai là bạn cả đời, nếu có thì đó là ai?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe8"
+  },
+  "content": "Bạn đã từng chủ động chấm dứt một tình bạn chưa, lý do thật sự là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fe9"
+  },
+  "content": "Có ai từng âm thầm rời khỏi cuộc đời bạn mà đến giờ bạn vẫn chưa hiểu lý do không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fea"
+  },
+  "content": "Một tình bạn độc hại bạn từng trải qua trông như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231feb"
+  },
+  "content": "Dấu hiệu nào cho bạn biết đã đến lúc nên buông bỏ một mối quan hệ bạn bè?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fec"
+  },
+  "content": "Bạn có từng cố níu kéo một người bạn không còn muốn ở lại cuộc đời mình nữa không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fed"
+  },
+  "content": "Bạn có nhóm bạn nào mà chỉ cần gặp là lập tức trở về phiên bản năng lượng nhất của mình không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fee"
+  },
+  "content": "Kế hoạch đi chơi điên rồ nhất mà bạn và bạn bè từng bàn đến là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fef"
+  },
+  "content": "Nếu phải tổ chức một chuyến du lịch chỉ có bạn bè, bạn muốn đó là chuyến đi như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff0"
+  },
+  "content": "Trong nhóm bạn, ai là người dễ say chuyện nhất khi khuya muộn và có đồ ăn vặt?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff1"
+  },
+  "content": "Bạn từng có trải nghiệm ngủ chung phòng với bạn bè và tám xuyên đêm chưa, chuyện gì được kể nhiều nhất?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff2"
+  },
+  "content": "Một đặc điểm tính cách nào ở bạn khiến bạn cảm thấy mình là người bạn đáng tin cậy?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff3"
+  },
+  "content": "Có điều gì bạn muốn thay đổi ở cách mình đối xử với bạn bè không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff4"
+  },
+  "content": "Bạn có cảm thấy mình dễ mở lòng với bạn mới hay khá khó kết bạn thân?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff5"
+  },
+  "content": "Trong tình bạn, bạn hay đóng vai người tâm sự, người lắng nghe hay người tạo năng lượng?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff6"
+  },
+  "content": "Nếu phải nói một điều khiến bạn tự hào về cách mình làm bạn, đó sẽ là điều gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff7"
+  },
+  "content": "Bạn có từng có một người bạn mà hai người hiểu nhau đến mức không cần nói nhiều vẫn biết người kia nghĩ gì không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff8"
+  },
+  "content": "Có ai mà chỉ cần bạn im lặng khác thường là họ nhận ra ngay không ổn không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ff9"
+  },
+  "content": "Khoảng cách địa lý đã từng làm thay đổi một tình bạn của bạn như thế nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ffa"
+  },
+  "content": "Bạn có tin rằng một số người bạn xuất hiện chỉ để đi cùng bạn một đoạn đường đời nhất định không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ffb"
+  },
+  "content": "Bạn nghĩ đâu là khác biệt lớn nhất giữa bạn thân và người quen thân?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ffc"
+  },
+  "content": "Bạn từng làm điều gì đó rất ngốc nghếch nhưng lại là kỷ niệm khó quên với bạn bè không?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ffd"
+  },
+  "content": "Một lần bạn và bạn bè phá vỡ một luật ngầm nào đó của lớp hoặc trường là khi nào?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231ffe"
+  },
+  "content": "Ai là người bạn thường hay nhắn tin giờ khuya nhất và hai người thường nói về điều gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770231fff"
+  },
+  "content": "Trong các nhóm chat bạn đang ở, nhóm nào khiến bạn cười nhiều nhất?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+},
+{
+  "_id": {
+    "$oid": "6929e52cfbe96ef770232000"
+  },
+  "content": "Bạn từng xém gặp rắc rối lớn vì hội bạn rủ làm điều gì đó điên điên chưa, chuyện đó là gì?",
+  "topic": {
+    "$oid": "675000000000000000000002"
+  }
+}]
