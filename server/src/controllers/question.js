@@ -1,5 +1,6 @@
 const Question = require("../models/question");
 const Topic = require("../models/topic");
+const mongoose = require("mongoose");
 
 class QuestionController {
   async create(req, res) {
@@ -73,6 +74,47 @@ class QuestionController {
         return res.status(404).json({ error: "Question not found" });
       }
       return res.json({ message: "Question deleted successfully" });
+    } catch (err) {
+      return res.status(500).json({ error: err.message });
+    }
+  }
+
+  async filter(req, res) {
+    try {
+      const { topicId, topicName } = req.query;
+
+      if (!topicId && !topicName) {
+        return res
+          .status(400)
+          .json({ error: "topicId hoặc topicName là bắt buộc" });
+      }
+
+      let topicFilter = null;
+
+      if (topicId && topicId !== "all") {
+        if (!mongoose.isValidObjectId(topicId)) {
+          return res.status(400).json({ error: "Topic id không hợp lệ" });
+        }
+
+        const exists = await Topic.exists({ _id: topicId });
+        if (!exists) {
+          return res.status(404).json({ error: "Topic không tồn tại" });
+        }
+        topicFilter = topicId;
+      } else if (topicName && topicName !== "all") {
+        const topic = await Topic.findOne({ topicName });
+        if (!topic) {
+          return res.status(404).json({ error: "Topic không tồn tại" });
+        }
+        topicFilter = topic._id;
+      }
+
+      const conditions = topicFilter ? { topic: topicFilter } : {};
+      const questions = await Question.find(conditions).populate(
+        "topic",
+        "topicName"
+      );
+      return res.json(questions);
     } catch (err) {
       return res.status(500).json({ error: err.message });
     }

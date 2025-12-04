@@ -39,6 +39,12 @@ const getQuestionAPI = (id) => unwrap(axios.get(`${QUESTIONS_API}/${id}`));
 const updateQuestionAPI = (id, payload) =>
   unwrap(axios.put(`${QUESTIONS_API}/${id}`, payload));
 const deleteQuestionAPI = (id) => unwrap(axios.delete(`${QUESTIONS_API}/${id}`));
+const getQuestionsByTopicAPI = ({ topicId, topicName }) =>
+  unwrap(
+    axios.get(`${QUESTIONS_API}/filter`, {
+      params: { topicId, topicName },
+    })
+  );
 
 // Topics
 const getTopicsAPI = () => unwrap(axios.get(TOPIC_API));
@@ -68,6 +74,7 @@ export {
   getQuestionAPI,
   updateQuestionAPI,
   deleteQuestionAPI,
+  getQuestionsByTopicAPI,
   getTopicsAPI,
   createTopicAPI,
   startGameAPI,

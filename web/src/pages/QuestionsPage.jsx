@@ -3,8 +3,9 @@ import {
   createQuestionAPI,
   getQuestionsAPI,
   deleteQuestionAPI,
+  getQuestionsByTopicAPI,
+  getTopicsAPI,
 } from "../app/api";
-import { getTopicsAPI } from "../app/api";
 
 const QuestionsPage = () => {
   const [questions, setQuestions] = useState([]);
@@ -12,11 +13,20 @@ const QuestionsPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [form, setForm] = useState({ content: "", topic: "" });
+  const [selectedTopic, setSelectedTopic] = useState("all");
 
-  const loadQuestions = async () => {
+  const loadQuestions = async (topicFilter = selectedTopic) => {
     try {
       setLoading(true);
-      const data = await getQuestionsAPI();
+      setError("");
+      let data;
+
+      if (!topicFilter || topicFilter === "all") {
+        data = await getQuestionsAPI();
+      } else {
+        data = await getQuestionsByTopicAPI({ topicId: topicFilter });
+      }
+
       setQuestions(data);
     } catch (err) {
       setError(err.message || "Không tải được câu hỏi");
@@ -26,7 +36,6 @@ const QuestionsPage = () => {
   };
 
   useEffect(() => {
-    loadQuestions();
     (async () => {
       try {
         const topicData = await getTopicsAPI();
@@ -37,13 +46,18 @@ const QuestionsPage = () => {
     })();
   }, []);
 
+  useEffect(() => {
+    loadQuestions(selectedTopic);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedTopic]);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       setError("");
       await createQuestionAPI(form);
       setForm({ content: "", topic: "" });
-      loadQuestions();
+      loadQuestions(selectedTopic);
     } catch (err) {
       setError(err.message || "Tạo câu hỏi thất bại");
     }
@@ -59,14 +73,14 @@ const QuestionsPage = () => {
   };
 
   return (
-    <div className="row g-4">
+    <div className="row g-4 ">
       <div className="col-12 d-flex justify-content-between align-items-center">
         <h2 className="fw-bold text-white">Questions</h2>
         {error && <span className="badge text-bg-warning">{error}</span>}
       </div>
 
       <div className="col-lg-4">
-        <div className="card shadow-sm border-0 lift">
+        <div className="card shadow-sm border-0 lift " >
           <div className="card-body">
             <h5 className="card-title fw-semibold mb-3">Soạn câu hỏi</h5>
             <form className="vstack gap-3" onSubmit={handleSubmit}>
@@ -87,9 +101,7 @@ const QuestionsPage = () => {
                 <select
                   className="form-select"
                   value={form.topic}
-                  onChange={(e) =>
-                    setForm({ ...form, topic: e.target.value })
-                  }
+                  onChange={(e) => setForm({ ...form, topic: e.target.value })}
                 >
                   <option value="">(Không chọn)</option>
                   {topics.map((t) => (
@@ -107,14 +119,28 @@ const QuestionsPage = () => {
         </div>
       </div>
 
-      <div className="col-lg-8">
-        <div className="card shadow-sm border-0">
-          <div className="card-body">
+      <div className="col-lg-8 ">
+        <div className="card shadow-sm border-0 ">
+          <div className="card-body ">
             <div className="d-flex justify-content-between align-items-center mb-3">
               <h5 className="card-title fw-semibold mb-0">Danh sách</h5>
-              {loading && <span className="text-muted small">Loading...</span>}
+              <div className="d-flex align-items-center gap-2">
+                <select
+                  className="form-select form-select-sm w-auto"
+                  value={selectedTopic}
+                  onChange={(e) => setSelectedTopic(e.target.value)}
+                >
+                  <option value="all">Tất cả topic</option>
+                  {topics.map((t) => (
+                    <option key={t._id} value={t._id}>
+                      {t.topicName}
+                    </option>
+                  ))}
+                </select>
+                {loading && <span className="text-muted small">Loading...</span>}
+              </div>
             </div>
-            <div className="table-responsive">
+            <div className="table-responsive ">
               <table className="table align-middle">
                 <thead>
                   <tr>

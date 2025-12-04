@@ -90,7 +90,7 @@ const GroupsPage = () => {
         {error && <span className="badge text-bg-warning">{error}</span>}
       </div>
 
-      <div className="col-lg-4">
+      <div className="col-lg-4 bg-transparent">
         <div className="card shadow-sm border-0 lift">
           <div className="card-body">
             <h5 className="card-title fw-semibold mb-3">Tạo group</h5>
@@ -167,7 +167,7 @@ const GroupsPage = () => {
         </div>
       </div>
 
-      <div className="col-lg-8">
+      <div className="col-lg-8 bg-transparent">
         <div className="card shadow-sm border-0">
           <div className="card-body">
             <div className="d-flex justify-content-between align-items-center mb-3">
