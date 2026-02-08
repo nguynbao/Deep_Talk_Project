@@ -1,65 +1,91 @@
 import { Link } from "react-router-dom";
+import { Users, FolderRoot, HelpCircle, Gamepad2, ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 const Home = () => {
   const cards = [
     {
       title: "Users",
-      text: "Tạo và quản lý người chơi, thêm avatar để profile nổi bật.",
+      text: "Quản lý người chơi và hồ sơ cá nhân với giao diện trực quan.",
       to: "/users",
-      color: "bg-gradient-primary",
+      icon: Users,
+      color: "from-blue-500 to-cyan-400",
     },
     {
       title: "Groups",
-      text: "Tạo phòng, thêm bạn bè vào nhóm để chơi cùng nhau.",
+      text: "Khởi tạo nhóm, kết nối bạn bè và đồng nghiệp dễ dàng.",
       to: "/groups",
-      color: "bg-gradient-success",
+      icon: FolderRoot,
+      color: "from-purple-500 to-pink-400",
     },
     {
       title: "Questions",
-      text: "Soạn câu hỏi theo chủ đề để cuộc trò chuyện thú vị hơn.",
+      text: "Kho tàng câu hỏi đa dạng, gợi mở những cuộc đối thoại sâu sắc.",
       to: "/questions",
-      color: "bg-gradient-warning",
+      icon: HelpCircle,
+      color: "from-orange-500 to-amber-400",
     },
     {
       title: "Games",
-      text: "Bắt đầu game, chọn chủ đề hoặc chơi tất cả, random lượt công bằng.",
+      text: "Bắt đầu trải nghiệm kết nối ngay lập tức với các game thú vị.",
       to: "/games",
-      color: "bg-gradient-info",
+      icon: Gamepad2,
+      color: "from-emerald-500 to-teal-400",
     },
   ];
 
   return (
-    <div className="row g-4">
-      <div className="col-12">
-        <div className="hero-card p-4 p-md-5 text-white rounded-4">
-          <h1 className="fw-bold display-5 mb-3">DeepTalk Playground</h1>
-          <p className="lead mb-4">
-            Tone màu trẻ trung, thao tác nhanh: quản lý user, group, câu hỏi và
-            khởi động game trong vài cú click.
-          </p>
-          <div className="d-flex gap-3 flex-wrap">
-            <Link className="btn btn-light btn-lg px-4" to="/games">
-              Bắt đầu chơi
-            </Link>
-            <Link className="btn btn-outline-light btn-lg px-4" to="/questions">
-              Soạn câu hỏi
-            </Link>
-          </div>
-        </div>
+    <div className="max-w-6xl mx-auto">
+      <div className="text-center mb-16 space-y-4">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-5xl md:text-7xl font-black bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500 tracking-tight"
+        >
+          DeepTalk Playground
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          className="text-xl text-slate-400 max-w-2xl mx-auto"
+        >
+          Kiến tạo không gian kết nối chân thành. Khám phá những câu chuyện
+          đằng sau mỗi người bạn qua những trò chơi thú vị.
+        </motion.p>
       </div>
-      {cards.map((card) => (
-        <div className="col-md-6 col-lg-3" key={card.title}>
-          <div className={`card lift ${card.color} text-white h-100`}>
-            <div className="card-body d-flex flex-column">
-              <h5 className="card-title fw-bold">{card.title}</h5>
-              <p className="card-text flex-grow-1">{card.text}</p>
-              <Link className="btn btn-light mt-2" to={card.to}>
-                Đi tới {card.title}
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {cards.map((card, index) => (
+          <motion.div
+            key={card.title}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 * (index + 1) }}
+            whileHover={{ y: -5 }}
+            className="group relative"
+          >
+            <div className="glass-card p-8 h-full flex flex-col">
+              <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-br ${card.color} shadow-lg shadow-black/20 group-hover:scale-110 transition-transform duration-300`}>
+                <card.icon className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-3 tracking-tight">
+                {card.title}
+              </h3>
+              <p className="text-slate-400 text-sm leading-relaxed mb-8 flex-grow">
+                {card.text}
+              </p>
+              <Link
+                to={card.to}
+                className="flex items-center gap-2 text-sm font-bold text-accent-primary group-hover:text-accent-secondary transition-colors"
+              >
+                Khám phá ngay
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
-          </div>
-        </div>
-      ))}
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 };
